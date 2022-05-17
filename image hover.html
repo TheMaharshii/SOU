@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>image hover </title>
+        <style type="text/css">
+            .container-img
+              {
+               position: relative;
+               width: 300px;
+               
+              }
+              .image
+              {
+                  display: block;
+                  height: 500px;
+                  width: 500px;
+                  transition: 3s;
+                  
+              } 
+              overlay 
+              {
+               position: absolute;
+               top: 0;
+               bottom: 0;
+               left: 0;
+               right: 0;
+               height: 100%;
+               opacity: 0;
+               transition: 1s;
+               background-color: rgb(0,0,0,0.7);
+               }
+               .container-img :hover .overlay {opacity: 1;}
+               .container-img:hover .image{
+                   transform: rotate(360deg);
+               }
+               .text
+               {
+                color: aqua;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                text-align: center;                
+               }
+            </style>
+    </head>
+    <body>
+        <h2>overlay effect</h2>
+    <div class="container-img" >
+        
+        <img src="h35.jpg.jpeg" alt="demo" class="image">
+    <div class="overlay">
+    <div class="text">hemil soni</div></div></div>
+    </body>
+</html>
+
+
+

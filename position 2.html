@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 2</title>
+    <style type="text/css">
+         div{
+             height: 200px;
+             width: 200px;
+             background-color: blueviolet;
+             font-size: bold;
+             color: black;
+             transition: 3s;
+         }
+
+           #translate:hover{
+               -webkit-transform: translate(100px,100px);
+               -moz-transform: translate(100px,100px);
+               -ms-transform: translate(100px,100px);
+               -o-transform: translate(100px,100px);
+               transform: translate(100px,100px);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #rotate:hover{
+               -webkit-transform:rotate3d(360deg);
+               -moz-transform: rotate(360deg);
+               -ms-transform: rotate(360deg);
+               -o-transform: rotate(360deg);
+               transform: rotate(360deg);
+               background-color: aqua;
+               color: brown;
+           }
+
+           #rotate3d:hover{
+            -webkit-transform:rotate3d(1,1,0,180deg);
+               -moz-transform:rotate3d(1,1,0,180deg);
+               -ms-transform:rotate3d(1,1,0,180deg);
+               -o-transform:rotate3d(1,1,0,180deg);
+               transform:rotate3d(1,1,0,360deg);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #scale:hover{
+            -webkit-transform:scale(0.7);
+               -moz-transform:scale(0.7);
+               -ms-transform:scale(0.7);
+               -o-transform:scale(0.7);
+               transform:scale (0.7);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #opacity:hover{
+            -webkit-transform:opacity(0.3);
+               -moz-transform:opacity(0.3);
+               -ms-transform:opacity(0.3);
+               -o-transform:opacity(0.3);
+               transform:opacity (0.3);
+               background-color:brown;
+               color: cadetblue;
+           }
+    </style>
+</head>
+<body>
+    <div id="translate">translate</div>
+    <div id="rotate">rotate</div>
+    <div id="rotate3d">rotate3d</div>
+    <div id="scale">scale</div>
+    <div id="opacity">opacity</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 3</title>
+    <style type="text/css">
+         div{
+             height: 200px;
+             width: 200px;
+             background-color: blueviolet;
+             font-size: bold;
+             color: black;
+             transition: 3s;
+         }
+
+           #translate:hover{
+               -webkit-transform: translate(100px,100px);
+               -moz-transform: translate(100px,100px);
+               -ms-transform: translate(100px,100px);
+               -o-transform: translate(100px,100px);
+               transform: translate(100px,100px);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #rotate:hover{
+               -webkit-transform:rotate3d(360deg);
+               -moz-transform: rotate(360deg);
+               -ms-transform: rotate(360deg);
+               -o-transform: rotate(360deg);
+               transform: rotate(360deg);
+               background-color: aqua;
+               color: brown;
+           }
+
+           #rotate3d:hover{
+            -webkit-transform:rotate3d(1,1,0,180deg);
+               -moz-transform:rotate3d(1,1,0,180deg);
+               -ms-transform:rotate3d(1,1,0,180deg);
+               -o-transform:rotate3d(1,1,0,180deg);
+               transform:rotate3d(1,1,0,360deg);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #scale:hover{
+            -webkit-transform:scale(0.7);
+               -moz-transform:scale(0.7);
+               -ms-transform:scale(0.7);
+               -o-transform:scale(0.7);
+               transform:scale (0.7);
+               background-color: aqua;
+               color: cadetblue;
+           }
+
+           #opacity:hover{
+                 opacity: 0.5;
+           }
+
+           #RBGA:hover{
+               background:rgba(rgb(220, 11, 11), green, blue, alpha);
+           }
+
+           #boxshadow:hover{
+               box-shadow: 0px 0px 30px #480407;
+           }
+
+           #textshadow:hover{
+               text-shadow: 3px 3px 3px red;
+           }
+
+           #borderadius:hover{
+               border-radius: 50%;
+           }
+           
+           #overflow:hover{
+               overflow: auto;
+           }
+    </style>
+</head>
+<body>
+    <div id="translate">translate</div></body><hr>
+    <div id="rotate">rotate</div></html><hr>   
+     <div id="rotate3d">rotate3d</div><hr>
+    <div id="scale">scale</div><hr>
+    <div id="opacity">opacity</div><hr>
+    <div id="RGBA">RGBA</div><hr>
+    <div id="boxshadow">boxshadow</div><hr>
+    <div id="textshadow">textshadow</div><hr>
+    <div id="borderadius">borderadius</div><hr>
+    <div id="overflow">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iusto debitis quam recusandae vitae officiis! Suscipit sequi itaque earum quasi et dolore eligendi sit impedit aspernatur cum, harum similique. Quod! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam rem hic! Doloribus deleniti quaerat corporis inventore, vel odit voluptate accusamus, unde suscipit eveniet corrupti perferendis iste reiciendis aut expedita.</div><hr>
+</body>
+</html>
